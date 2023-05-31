@@ -1,0 +1,40 @@
+
+.box{
+    position: absolute;
+    top: 64px;
+    width: 200px;
+    right: -100px;
+    transform: translateX(-50%);
+    background-color: #374151;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.toggle{
+    display: flex;
+    flex-direction: column;
+}
+
+.close{
+    position: absolute;
+    top: -5px;
+    right: -100px;
+    
+}
+.info:first-child{
+    color: white;
+}
+.info:not(:first-child){
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #9CA3AF;
+}
+.info:last-child{
+    color: red;
+}
+
+
+
